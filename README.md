@@ -36,7 +36,7 @@ Use gdebi to install Dullahan:
 4. reboot:
 ```sudo reboot```
 
-After the reboot your system should run X11 headless and if you use a remote tool like vnc or b11, you can connect to your system and interact with its desktop.
+After the reboot your system should run X11 headless and if you use a remote tool like vnc or b11, you can connect to your system and interact with its desktop. You can verify this by 'ps -ef | grep Xvfb'. As part of the installation the account 'ubuntu' will be set up to auto login.
 
 #### via GUI (that would actually require X11 to run already...)
 
