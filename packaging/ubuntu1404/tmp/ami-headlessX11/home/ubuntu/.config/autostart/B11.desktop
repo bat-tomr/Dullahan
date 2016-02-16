@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/b11
+Hidden=false
+NoDisplay=false
+X_GNOME-Autostart-enabled=true
+Name[en]=B11
+Name=B11
+Comment[en]=Remoting made Easy by Colorado Code Craft, Ltd.

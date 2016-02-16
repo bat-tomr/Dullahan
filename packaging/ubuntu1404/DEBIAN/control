@@ -1,0 +1,11 @@
+Package: ami-headless-X11
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Installed-Size: 1024
+Maintainer: Colorado Code Craft <support@coloradocodecraft.com>
+Description: Setup AMI Ubuntu 14.04 instance to run X11 headless
+ Installs all packages to be able to run X11 on an AMI Ubuntu 14.04 instance
+ Sets up files apropriately to auto logon and changes X services
+Pre-Depends: xvfb, xserver-xorg-core, x11-apps, lightdm, ubuntu-session, ubuntu-desktop, mesa-utils

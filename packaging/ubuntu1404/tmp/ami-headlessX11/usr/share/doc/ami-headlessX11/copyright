@@ -1,0 +1,9 @@
+This is the X11 headless installer for ubuntu distributions with the intend to make X11 headless server setup for displayless server simple and easy.
+It has been written with servers providied by cloud services like AWS in mind but can be used for any other setups that require a headless X11 server.
+
+Distribution for non-commercial uses is free. For commercial uses, please contact:
+contact@coloradocodecraft.com
+
+Distribution for non-commercial and commercial uses requires this copyright note to be part of the distribution.
+
+Copyright (c) 2015 Colorado Code Craft, All rights reserved

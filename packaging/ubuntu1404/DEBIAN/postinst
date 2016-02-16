@@ -1,0 +1,20 @@
+#!/bin/bash
+# put all X11 and autologin/startup files into place
+
+TMPPKG_DIR=/tmp/ami-headlessX11
+
+echo "...putting config files into places, backin up old files"
+pushd $TMPPKG_DIR >> /dev/null
+cp -r --backup=numbered * /
+popd
+
+rm -rf $TMPPKG_DIR
+
+chown -R ubuntu /home/ubuntu/.config
+chgrp -R ubuntu /home/ubuntu/.config
+
+
+# end
+echo "After reboot your system will have a headless X-server"
+echo "If b11 has been installed before, b11 will be started automatically"
+

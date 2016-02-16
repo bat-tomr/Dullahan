@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "updating system now"
+#apt-get update
+

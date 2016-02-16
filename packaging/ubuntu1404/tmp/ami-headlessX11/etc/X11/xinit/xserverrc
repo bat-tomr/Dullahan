@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec Xvfb :0 -screen 0 1280x720x24

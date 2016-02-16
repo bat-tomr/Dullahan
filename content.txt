@@ -1,0 +1,11 @@
+content:
+README.md
+	github README
+content.txt
+	this file
+installer/
+	All install packages (deb, rpm, ...) 
+makepkg.sh
+	creates all install packages
+packaging/
+	all data necessary to create installers for the different distros 
