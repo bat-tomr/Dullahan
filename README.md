@@ -25,14 +25,18 @@ and the script will create a debian package under installer/<distro>
 #### from the command line
 Use gdebi to install Dullahan:
 
-1. Install gdebi:
+1. Update your distro: ```sudo apt-get update```
+
+2. Install gdebi:
 ```sudo apt-get install gdebi```
 
-2. Install Dullahan:
+3. Install Dullahan:
 ```sudo gdebi installer/<distro>/dullahan_<..>.deb```
 
-3. reboot:
+4. reboot:
 ```sudo reboot```
+
+After the reboot your system should run X11 headless and if you use a remote tool like vnc or b11, you can connect to your system and interact with its desktop.
 
 #### via GUI (that would actually require X11 to run already...)
 
