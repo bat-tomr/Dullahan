@@ -2,7 +2,7 @@
 Create a headless X11 setup in the cloud and on your workstation 
 
 ## What for ?
-Getting X11 up and running on a headless linux machine can sometimes by pretty tricky and time consuming, especially if the machine is not accessible or impossible to connect a display even temporarily. One particlar case are linux instances on public cloud providers like Amazon or Softlayer. Those instances come with a baremetal linux installation without X11 support and the internet is full of desperate souls looking for solutions to install X11 on their VMs, so they can remote into their instances using VNC or B11. 
+Getting X11 up and running on a headless linux machine can sometimes be pretty tricky and time consuming, especially if the machine is not accessible or impossible to connect a display even temporarily. One particlar case are linux instances on public cloud providers like Amazon or Softlayer. Those instances come with a baremetal linux installation without X11 support and the internet is full of desperate souls looking for solutions to install X11 on their VMs, so they can remote into their instances using VNC or B11. 
 Dullahan is here to help! It is a simple installer that makes the task of installing X11 for headless servers really easy.
 
 ## Status
