@@ -42,5 +42,10 @@ After the reboot your system should run X11 headless and if you use a remote too
 
 Just double click the installer package (installer/ubuntuxx/dullahan_<..>.deb) and follow the online instructions.
 
+### ...and how do I connect to that desktop ?
 
+In order to actually see the desktop of your newly setup x11 instance, you would have to install remoting software.
+Remoting software we like and recommend:
+- [TightVNC](http://www.tightvnc.com/ "TightVNC"), a free and lightweight Remote Control / Remote Desktop Software
+- [B11](http://coloradocodecraft.com/ "B11") (our own SW), an extremely fast remoting software that runs in the browser and supports multi user collaboration. 
 
