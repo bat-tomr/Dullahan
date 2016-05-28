@@ -8,6 +8,9 @@ Dullahan is here to help! It is a simple installer that makes the task of instal
 ## Status
 At the moment Dullahan only exists for Debian and only has been thoroughly tested on Ubuntu but RPM based distributions are to come soon. It has been tested on Amazon Ubuntu Server 14.04 LTS and on SoftLayer Ubuntu 14.04 instances as well as on standalone workstations.
 
+## Download the Dullahan installer
+Just get from [here](https://github.com/ccc-tomr/Dullahan/blob/master/installer/ubuntu1404/dullahan_1.0_amd64.deb)
+
 ## How to create the Dullahan installer
 If you don't want to build the installer yourself, you can download any prepackaged installers from the installer/ directory (i.e. installer/ubuntu1404/dullahan_1.0_amd64.deb) and go directly to 'How to use the Dullahan installer'.
 
