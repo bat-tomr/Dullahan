@@ -9,10 +9,10 @@ Dullahan is here to help! It is a simple installer that makes the task of instal
 At the moment Dullahan only exists for Debian and only has been thoroughly tested on Ubuntu but RPM based distributions are to come soon. It has been tested on Amazon Ubuntu Server 14.04 LTS and on SoftLayer Ubuntu 14.04 instances as well as on standalone workstations.
 
 ## Download the Dullahan installer
-Just get from [here](https://github.com/ccc-tomr/Dullahan/blob/master/installer/ubuntu1404/dullahan_1.0_amd64.deb)
+Just get it from [here](https://github.com/ccc-tomr/Dullahan/blob/master/installer/ubuntu1404/dullahan_1.0_amd64.deb) (right-click and Save Link as...) 
 
-## How to create the Dullahan installer
-If you don't want to build the installer yourself, you can download any prepackaged installers from the installer/ directory (i.e. installer/ubuntu1404/dullahan_1.0_amd64.deb) and go directly to 'How to use the Dullahan installer'.
+## How to create the Dullahan installer 
+Only necessary if you want to modify the installer, you can ignore this if you downloaded the prebuild installer already as mentioned in 'Download the Dullahan installer'.
 
 After cloning the repo, just do
 
@@ -21,7 +21,6 @@ After cloning the repo, just do
 and the script will create a debian package under installer/<distro>
 
 ## How to use the Dullahan installer
-
 
 ### Ubuntu
 
@@ -39,7 +38,7 @@ Use gdebi to install Dullahan:
 4. reboot:
 ```sudo reboot```
 
-After the reboot your system should run X11 headless and if you use a remote tool like vnc or b11, you can connect to your system and interact with its desktop. You can verify this by 'ps -ef | grep Xvfb'. As part of the installation the account 'ubuntu' will be set up to auto login.
+After the reboot, your system should run X11 headless and if you use a remote tool like vnc or b11, you can connect to your system and interact with its desktop. You can verify this by 'ps -ef | grep Xvfb'. As part of the installation the account 'ubuntu' will be set up to auto login.
 
 #### via GUI (that would actually require X11 to run already...)
 
