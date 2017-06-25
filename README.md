@@ -6,7 +6,7 @@ Getting X11 up and running on a headless linux machine can sometimes be pretty t
 Dullahan is here to help! It is a simple installer that makes the task of installing X11 for headless servers really easy.
 
 ## Status
-At the moment Dullahan only exists for Debian and only has been thoroughly tested on Ubuntu but RPM based distributions are to come soon. It has been tested on Amazon Ubuntu Server 14.04 LTS and on SoftLayer Ubuntu 14.04 instances as well as on standalone workstations.
+At the moment Dullahan only exists for Debian and only has been thoroughly tested on Ubuntu but RPM based distributions are to come soon. It has been tested on Amazon Ubuntu Server 14.04 / 16.04 LTS and on SoftLayer Ubuntu 14.04 / 16.04 instances as well as on standalone workstations.
 
 ## Download the Dullahan installer
 Just get it from [here](https://github.com/ccc-tomr/Dullahan/blob/master/installer/ubuntu1404/dullahan_1.0_amd64.deb) (right-click and Save Link as...) 
